@@ -26,4 +26,4 @@
  * @version    $Id: config.php 2011-04-07 22:05:00 may17
  */
  
-$GLOBALS['TL_PTY']['m17Folder'] = 'PageError404';
+$GLOBALS['TL_PTY']['m17Folder'] = 'PageM17PageFolder';
