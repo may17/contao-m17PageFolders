@@ -1,6 +1,6 @@
 <?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
 
-class PageM17PageFolder extends PageRegular
+class PageFolder extends PageRegular
 {
     public function generate(Database_Result $objPage)
     {

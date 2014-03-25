@@ -16,7 +16,7 @@
  */
 ClassLoader::addClasses(array
 (
-	'PageM17PageFolder' => 'system/modules/m17PageFolders/PageM17PageFolder.php',
+	'PageFolder' => 'system/modules/m17PageFolders/PageFolder.php',
 ));
 
 
