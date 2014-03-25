@@ -1,6 +1,7 @@
 <?php if (!defined('TL_ROOT')) die('You can not access this file directly!');
 
-class PageM17PageFolder {
+class PageM17PageFolder extends PageRegular
+{
     public function generate(Database_Result $objPage)
     {
         $objHandler = new $GLOBALS['TL_PTY']['error_404']();
