@@ -1,0 +1,38 @@
+{
+    "name":"jrgregory/m17-page-folders",
+    "description":"Adds a new page type folder to the pagetree",
+    "keywords":["pages","folders","contao"],
+    "type":"contao-module",
+    "homepage":"http://www.slash-works.de",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Joe Ray Gregory",
+            "homepage":"http://www.slash-works.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "issues":"https://github.com/may17/contao-m17PageFolders/issues",
+        "irc":"irc://irc.freenode.org/contao.dev",
+        "source":"https://github.com/may17/contao-m17PageFolders/"
+    },
+    "require":{
+        "php":">=5.3",
+        "contao/core":">=3.2,<4",
+        "contao-community-alliance/composer-installer":"*"
+    },
+    "autoload":{
+        "classmap":["TL_ROOT/"]
+    },
+    "replace":{
+        "contao-legacy/m17pagefolders":"*"
+    },
+    "extra":{
+        "contao":{
+            "sources":{
+                "TL_ROOT/system/modules/m17PageFolders":"system/modules/m17PageFolders"
+            }
+        }
+    }
+}
