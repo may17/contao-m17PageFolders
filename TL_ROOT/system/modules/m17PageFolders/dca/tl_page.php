@@ -26,4 +26,14 @@
  * @version    $Id: tl_page.php 2011-04-07 22:05:00 may17
  */
 
-$GLOBALS['TL_DCA']['tl_page']['palettes']['m17Folder'] = '{title_legend},title,alias,type;{protected_legend:hide},protected;{layout_legend:hide},includeLayout;{expert_legend:hide},cssClass,sitemap,hide,guests;{tabnav_legend:hide},tabindex,accesskey;{publish_legend},published,start,stop';
+if(!array_key_exists('m17PageFolderPalette', $GLOBALS['TL_CONFIG'])) {
+
+    $_palette = '{title_legend},title,alias,type;{protected_legend:hide},protected;{layout_legend:hide},includeLayout;{expert_legend:hide},cssClass,sitemap,hide,guests;{tabnav_legend:hide},tabindex,accesskey;{publish_legend},published,start,stop';
+
+} else {
+
+    $_palette = $GLOBALS['TL_CONFIG']['m17PageFolderPalette'];
+
+}
+
+$GLOBALS['TL_DCA']['tl_page']['palettes']['m17Folder'] = $_palette;
