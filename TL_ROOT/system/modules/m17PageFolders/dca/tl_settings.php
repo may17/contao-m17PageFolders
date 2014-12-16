@@ -4,8 +4,7 @@ $GLOBALS['TL_DCA']['tl_settings']['palettes']['default'] .= ';{m17PageFolderPale
 
 $GLOBALS['TL_DCA']['tl_settings']['fields']['m17PageFolderPalette'] = array
 (
-    'label'                   => &$GLOBALS['TL_LANG']['tl_settings']['m17PageFolderPallete'],
-    'default'                 => 'TESTESFDF',
+    'label'                   => &$GLOBALS['TL_LANG']['tl_settings']['m17PageFolderPalette'],
     'inputType'               => 'text',
     'load_callback'           => array(array('m17PageFolderConfig', 'checkDefaultValue')),
     'eval'                    => array('mandatory'=>true, 'nospace'=>true, 'tl_class'=>'long')
